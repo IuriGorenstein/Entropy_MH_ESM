@@ -1,8 +1,17 @@
 The data available here is described in: "The Atlantic Ocean’s Decadal Variability in mid-Holocene
-Simulations using Shannon’s Entropy" - paper currently under review in GMD Journal.
+Simulations using Shannon’s Entropy" - paper currently under review by the GMD Journal.
 
-The data comes from 17 simulations from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
-In the paper cited above, the data is used to study decada climate variability of the tropical and South Atlantic Sea Surface Temperature (SST) and precipitation,
+The data contemplates sea surface temperature (SST) and precipitation indexes that correspond to 17 simulation runs from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
+In the paper cited above, this data is used to study decadal climate variability of the tropical and South Atlantic,
 and its sensibility to prescribed parametrizations in pre-industrial and mid-Holocene simulations.
 
-Further more, the code necessary to plot the data, create the directed graphs and compute Shannon's Entropy are also shared in this repository.
+Furthermore, the code necessary to plot the data, create the directed graphs and compute Shannon's Entropy present in the manuscript are also shared in this repository.
+
+Due to its large size, the data available here is the SST and PPT indexes in the reduced phase-space of the three EOFs (three principal components) of the data-set.
+The calculation of this phase-space is accessible via the scipy and scikitlearn libraries.
+An example of how this PCA can be applied to a test_dataset was also made available here.
+
+The complete data set of simulations, including the complete time series of the of sea surface temperature and precipitation,
+other variables and the complete NetCDF files of the global simulations are available upon reasonable request (contact iuri.gorenstein@usp.br).
+
+Iuri Gorenstein.
