@@ -1,0 +1,8 @@
+The data available here is described in: "The Atlantic Ocean’s Decadal Variability in mid-Holocene
+Simulations using Shannon’s Entropy" - paper currently under review in GMD Journal.
+
+The data comes from 17 simulations from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
+In the paper cited above, the data is used to study decada climate variability of the tropical and South Atlantic Sea Surface Temperature (SST) and precipitation,
+and its sensibility to prescribed parametrizations in pre-industrial and mid-Holocene simulations.
+
+Further more, the code necessary to plot the data, create the directed graphs and compute Shannon's Entropy are also shared in this repository.
