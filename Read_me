@@ -11,7 +11,7 @@ Due to its large size, the data available here is the SST and PPT indexes in the
 The calculation of this phase-space is accessible via the scipy and scikitlearn libraries.
 An example of how this PCA can be applied to a test_dataset was also made available here.
 
-I appologise for the usage of portuguese in the code. The translation will be completed in due time.
+I apologize for the usage of portuguese in the code. The translation will be completed in due time.
 
 The complete data set of simulations, including the complete time series of the of sea surface temperature and precipitation,
 other variables and the complete NetCDF files of the global simulations are available upon reasonable request (contact iuri.gorenstein@usp.br).
