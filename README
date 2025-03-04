@@ -8,7 +8,7 @@ and its sensibility to prescribed parametrizations in pre-industrial and mid-Hol
 Furthermore, the code necessary to plot the data, create the directed graphs and compute Shannon's Entropy present in the manuscript are also shared in this repository.
 
 Due to its large size, the data available here is the SST and PPT indexes in the reduced phase-space of the three EOFs (three principal components) of the data-set.
-The calculation of this phase-space is accessible via the scipy and scikitlearn libraries.
+The calculation of this phase-space is accessible via the sklearn library.
 An example of how this PCA can be applied to a test_dataset was also made available here.
 
 I apologize for the usage of portuguese in the code. The translation will be completed in due time.
