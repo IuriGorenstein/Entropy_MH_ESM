@@ -1,7 +1,8 @@
 The data available here is described in: "The Atlantic Ocean’s Decadal Variability in mid-Holocene
 Simulations using Shannon’s Entropy" - paper currently under review by the GMD Journal.
 
-The data contemplates sea surface temperature (SST) and precipitation indexes from the three EOFs that correspond to the variability of 17 simulation runs from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
+The data contemplates sea surface temperature and precipitation indexes from the three EOFs
+corresponding to the variability of 17 simulation runs from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
 The indexes are in 2 dimensions numpy.array format (model,simulation_time) in the following order:
 
     ## MODEL        -  MODEL number #
@@ -32,7 +33,8 @@ Furthermore, the code necessary to plot the data, create the directed graphs and
 
 Due to its large size, the data available here is the SST and PPT indexes in the reduced phase-space of the three EOFs (three principal components) of the data-set.
 The calculation of this phase-space is accessible via the sklearn library.
-An example of how this PCA can be applied to a test_dataset was also made available here.
+An example of how this PCA can be applied to a test_dataset of 1200 monthly sea surface temperature (SST - Kelvin per month)
+and precipitation (kg m^-2 s^-1) from the Altantic was also made available here.
 
 I apologize for the usage of portuguese in the code. The translation will be completed in due time.
 
