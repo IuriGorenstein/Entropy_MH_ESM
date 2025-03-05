@@ -1,7 +1,30 @@
 The data available here is described in: "The Atlantic Ocean’s Decadal Variability in mid-Holocene
 Simulations using Shannon’s Entropy" - paper currently under review by the GMD Journal.
 
-The data contemplates sea surface temperature (SST) and precipitation indexes that correspond to 17 simulation runs from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
+The data contemplates sea surface temperature (SST) and precipitation indexes from the three EOFs that correspond to the variability of 17 simulation runs from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
+The indexes are in 2 dimensions numpy.array format (model,simulation_time) in the following order:
+
+    ## MODEL        -  MODEL number #
+    # ECE:B405 PI   -       0       #       
+    # ECE:Z6KA MH   -       1       # 
+    # ECE:G105 GS   -       2       # 
+    # ECE:G506 GSrd -       3       #               
+    # GIS:GSALLK    -       4       # 
+    # GIS:GSALLN    -       5       # 
+    # GIS:GSEx      -       6       # 
+    # GIS:GSNA      -       7       # 
+    # GIS:MH        -       8       # 
+    # GIS:PI        -       9       #
+    # iCESM:GS      -       10      # 
+    # iCESM:MH      -       11      # 
+    # iCESM:PI      -       12      #                                          
+    # Toronto:GS    -       13      #       
+    # Toronto:GSsl  -       14      #             
+    # Toronto:MH    -       15      #           
+    # Toronto:PI    -       16      #  
+    #################################
+
+
 In the paper cited above, this data is used to study decadal climate variability of the tropical and South Atlantic,
 and its sensibility to prescribed parametrizations in pre-industrial and mid-Holocene simulations.
 
