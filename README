@@ -1,7 +1,7 @@
 The data available here is described in: "The Atlantic Ocean’s Decadal Variability in mid-Holocene
 Simulations using Shannon’s Entropy" - paper currently under review by the GMD Journal.
 
-The data contemplates sea surface temperature (SST) and precipitation indexes from the three EOFs (sst_eof1.npy - 1st SST eof times series)
+The data contemplates sea surface temperature (SST) and precipitation indexes from the three EOFs (sst_eof1.npy - 1st SST EOF times series)
 corresponding to the variability of 17 simulation runs from four numerical climate models (EC-Earth, iCESM, CCSM-Toronto, and GISS).
 The indexes are in 2 dimensions numpy.array format (model,simulation_time) in the following order:
 
@@ -28,16 +28,16 @@ The indexes are in 2 dimensions numpy.array format (model,simulation_time) in th
 In the paper cited above, this data is used to study decadal climate variability of the tropical and South Atlantic,
 and its sensibility to prescribed parametrizations in pre-industrial and mid-Holocene simulations.
 
-Furthermore, the code necessary to plot the data, create the directed graphs and compute Shannon's Entropy present in the manuscript are also shared in this repository.
+Furthermore, the code necessary to plot the data, create the directed graphs, and compute Shannon's Entropy present in the manuscript are also shared in this repository.
 
-Due to its large size, the data available here is the SST and PPT indexes in the reduced phase-space of the three EOFs (three principal components) of the data-set.
-The calculation of this phase-space is accessible via the sklearn library.
+Due to its large size, the data available here is the SST and PPT indexes in the reduced phase space of the data set's three EOFs (three principal components).
+The calculation of this phase space is accessible via the sklearn library.
 An example of how this PCA can be applied to a test_dataset of 1200 monthly sea surface temperature (SST - Kelvin per month)
-and precipitation (kg m^-2 s^-1) from the Altantic was also made available here.
+and precipitation (kg m^-2 s^-1) from the Atlantic was also made available here.
 
-I apologize for the usage of portuguese in the code. The translation will be completed in due time.
+I apologize for the usage of Portuguese in the code. The translation will be completed in due time.
 
-The complete data set of simulations, including the complete time series of the of sea surface temperature and precipitation,
+The complete data set of simulations, including the complete time series of the sea surface temperature and precipitation,
 other variables and the complete NetCDF files of the global simulations are available upon reasonable request (contact iuri.gorenstein@usp.br).
 
 Iuri Gorenstein.
