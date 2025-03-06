@@ -27,13 +27,16 @@ The indexes are in 2 dimensions numpy.array format (model,simulation_time) in th
 
 In the paper cited above, this data is used to study decadal climate variability of the tropical and South Atlantic,
 and its sensibility to prescribed parametrizations in pre-industrial and mid-Holocene simulations.
-
 Furthermore, the code necessary to plot the data, create the directed graphs, and compute Shannon's Entropy present in the manuscript are also shared in this repository.
+
+The results in the GMD_Scripts.ipynb notebook may differ from those in the paper.
+In the paper, an extensive exploration of EOF index thresholds was performed to obtain the maximum entropy value,
+whereas the notebook uses a fixed threshold of 0.5 standard deviations, which does not necessarily yield the maximum.
 
 Due to its large size, the data available here is the SST and PPT indexes in the reduced phase space of the data set's three EOFs (three principal components).
 The calculation of this phase space is accessible via the sklearn library.
-An example of how this PCA can be applied to a test_dataset of 1200 monthly sea surface temperature (SST - Kelvin per month)
-and precipitation (kg m^-2 s^-1) from the Atlantic was also made available here.
+An example of how this PCA can be applied to a test_dataset with 35 years of monthly (420 months) sea surface temperature (SST - Kelvin per month)
+and precipitation (kg m^-2 s^-1) from the Atlantic was also available here.
 
 I apologize for the usage of Portuguese in the code. The translation will be completed in due time.
 
