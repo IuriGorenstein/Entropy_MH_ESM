@@ -29,9 +29,10 @@ In the paper cited above, this data is used to study decadal climate variability
 and its sensibility to prescribed parametrizations in pre-industrial and mid-Holocene simulations.
 Furthermore, the code necessary to plot the data, create the directed graphs, and compute Shannon's Entropy present in the manuscript are also shared in this repository.
 
-The results in the GMD_Scripts.ipynb notebook may differ from those in the paper.
+The results in the GMD_Scripts_final.ipynb notebook may differ from those in the paper.
 In the paper, an extensive exploration of EOF index thresholds was performed to obtain the maximum entropy value,
 whereas the notebook uses a fixed threshold of 0.5 standard deviations, which does not necessarily yield the maximum.
+Furthermore, all the .npy vectors used in the notebooks have been made available.
 
 Due to its large size, the data available here is the SST and PPT indexes in the reduced phase space of the data set's three EOFs (three principal components).
 The calculation of this phase space is accessible via the sklearn library.
@@ -42,5 +43,6 @@ I apologize for the usage of Portuguese in the code. The translation will be com
 
 The complete data set of simulations, including the complete time series of the sea surface temperature and precipitation,
 other variables and the complete NetCDF files of the global simulations are available upon reasonable request (contact iuri.gorenstein@usp.br).
+If you have any doubts, send me an email. I will answer as soon as I can.
 
 Iuri Gorenstein.
